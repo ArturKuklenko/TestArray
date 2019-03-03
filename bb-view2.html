@@ -31,18 +31,19 @@
 </script>
 
 <script type="text/template" id="viewRocket">
-      Name:
-      <span class="name" contenteditable="true"><%- name %></span>
-      <div class="size form-horizontal">
+    Name:
+    <span class="name" contenteditable="true"><%- name %></span>
+    <div class="form-horizontal">
         <button data-rel="-10" class="changeSize btn btn-small btn-primary">-</button>
-        <input class="size" type="number" value="<%- size %>" >
+        <input class="size" type="number" value="<%- size %>" style="width: 70px;">
         <button data-rel="10" class="changeSize btn btn-small btn-success">+</button>
-        Remove
+        Remove:
         <button class="deleteRow btn btn-small btn-danger"><i class="icon-remove icon-white">X</i></button>
-      </div>
-      Description:
-      <span class="desc" contenteditable="true"><%- description %></span>
-  </script>
+    </div>
+    Description:
+    <span class="desc" contenteditable="true"><%- description %></span>
+</script>
+
 
 
 </body>
